@@ -21,7 +21,9 @@ https://www.virtualbox.org/wiki/Downloads
 ## RISC-V GCC Compiler
 
 * To obtain the RISC-V GCC compiler, navigate to the following link: https://www.embecosm.com/resources/tool-chain-downloads/. Download and install the tar.gz file that corresponds to your Linux version. It's crucial to perform this installation on the Virtual Machine.
+* For Ubuntu
 
+![image](https://github.com/ani171/RISC-V-5th-sem/assets/97838595/61c31d19-2c29-43c3-a632-bfa1f3915658)
 
 
 
