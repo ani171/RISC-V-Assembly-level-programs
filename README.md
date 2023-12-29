@@ -35,7 +35,12 @@ https://www.virtualbox.org/wiki/Downloads
  * The .data directive signifies a read-write section within the object file, reserved for storing data related to program variables.
  * The .data section is used for initialized static variables, encompassing global and static local variables.
 
+## Data 
 
+1. Word: In RISC-V, a word typically refers to a 32-bit value. It is the standard unit of data and address manipulation in the instruction set architecture.
+2. Half Word: A half word in RISC-V consists of 16 bits or two bytes. It is often used for operations involving smaller numerical values.
+3. Double Word: A double word is a larger data unit in RISC-V, comprising 64 bits or eight bytes. It is commonly used for handling larger numerical values or memory addresses.
+4. Byte: The byte is the smallest addressable unit of memory in RISC-V, consisting of 8 bits. Bytes are used for storing characters and small data values.
 
 
 
