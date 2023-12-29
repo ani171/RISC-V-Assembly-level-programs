@@ -25,8 +25,15 @@ https://www.virtualbox.org/wiki/Downloads
 
 ![image](https://github.com/ani171/RISC-V-5th-sem/assets/97838595/61c31d19-2c29-43c3-a632-bfa1f3915658)
 
+## Assembler Directives
+* .text
+ * The .text directive designates a read-only section that houses the actual instructions of the program.
+ * This section, also referred to as the code segment or text segment, is dedicated to executable instructions that remain unmodifiable during runtime.
+ * Any attempt to alter the contents of the .text section will result in a "Segmentation" error, leading to the immediate termination of the program. Alongside instructions, the code segment may include constants.
 
-
+* .data
+ * The .data directive signifies a read-write section within the object file, reserved for storing data related to program variables.
+ * The .data section is used for initialized static variables, encompassing global and static local variables.
 
 
 
