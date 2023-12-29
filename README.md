@@ -5,7 +5,7 @@ This repository contains lab exercises completed during the 5th semester of engi
 ## Virtual Box Installation
 
 https://www.virtualbox.org/wiki/Downloads
-* Follow the link to access the downloads page. Download and install the Windows hosts version of the software.
+* Follow the link to access the downloads page. Download and install the Windows host version of the software.
 * Launch the VirtualBox application and select "New."
 * Provide a name for the virtual machine (VM) and designate the folder location for your VM files.
 * Obtain the ISO file by installing the image from the specified websites.
@@ -18,7 +18,9 @@ https://www.virtualbox.org/wiki/Downloads
 * Click "Next," and in the "Create a virtual hard disk now" section, set it to either 50GB or 100GB. Ensure you have enough space, but note that the allocated space is dynamic and will only use up to 100GB when necessary.
 * Click "Next" and then "Finish."
 
+## RISC-V GCC Compiler
 
+* To obtain the RISC-V GCC compiler, navigate to the following link: https://www.embecosm.com/resources/tool-chain-downloads/. Download and install the tar.gz file that corresponds to your Linux version. It's crucial to perform this installation on the Virtual Machine.
 
 
 
