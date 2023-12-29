@@ -27,9 +27,9 @@ https://www.virtualbox.org/wiki/Downloads
 
 ## Assembler Directives
 * .text
- * The .text directive designates a read-only section that houses the actual instructions of the program.
- * This section, also referred to as the code segment or text segment, is dedicated to executable instructions that remain unmodifiable during runtime.
- * Any attempt to alter the contents of the .text section will result in a "Segmentation" error, leading to the immediate termination of the program. Alongside instructions, the code segment may include constants.
+** The .text directive designates a read-only section that houses the actual instructions of the program.
+** This section, also referred to as the code segment or text segment, is dedicated to executable instructions that remain unmodifiable during runtime.
+** Any attempt to alter the contents of the .text section will result in a "Segmentation" error, leading to the immediate termination of the program. Alongside instructions, the code segment may include constants.
 
 * .data
  * The .data directive signifies a read-write section within the object file, reserved for storing data related to program variables.
